@@ -1,4 +1,10 @@
 *{
-    background-color: white;
-    font-family: luxurious roman;
+    margin:"0 px;";
+    font-family:'Times New Roman', Times, serif
+}
+#titulosuperior {
+    margin-left: 50px;
+    padding-top: 150px;
+    font-size: 75px;
+    letter-spacing: -1.5px;
 }
