@@ -1,8 +1,6 @@
 *{
-
-    margin:"0 px;";
-    font-family:'Times New Roman', Times, serif
-
+margin:"0 px;";
+font-family:'Times New Roman', Times, serif
 }
 #titulosuperior {
     margin-left: 50px;
@@ -19,7 +17,7 @@
 }
 #menusuperior{
    background-color: black;
-   color:
+   color:#FFFFFF
 }
 #menuinformativo{
     background-color: black;
@@ -39,5 +37,9 @@
     font-size: 20px;
     font-weight: normal;
 }
-
-   
+#menuconteudo{
+background-color:#FFFFFF;
+display: grid;
+grid-auto-flow: column;
+column:auto;
+}
