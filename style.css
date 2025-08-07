@@ -41,5 +41,40 @@ font-family:'Times New Roman', Times, serif
 background-color:#FFFFFF;
 display: grid;
 grid-auto-flow: column;
-column:auto;
+columns:auto;
+} 
+#imagens{
+    margin: 100px  25xp 100px 100px
+}
+#textoconteudo{
+    text-align:justify;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px 25px 50px 100px;
+}
+#image, #textoconteudo, #formulario{
+    visibility: hidden;
+} 
+#spanconteudo{
+    text-align: justify;
+    font-size: 24px; 
+    font-weight: normal;
+}
+#formulario{
+    background-color: azure;
+    text-align: center;
+}
+#tituloformulario{
+     font-size:32px ;
+     padding: 70px 70px 20px 70px;
+     color:aliceblue;
+}
+input{
+   width: 400px;
+   height: 60px;
+   background-color: azure; 
+   margin: 25px;
+   border: 1px;
+   border-radius: 10px;
+   padding-left: 10px;
 }
